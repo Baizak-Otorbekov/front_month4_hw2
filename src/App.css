@@ -1,0 +1,85 @@
+.header nav,
+.footer nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border: 1px solid blue;
+    margin-right: 10px;
+    cursor: pointer;
+}
+p{
+    font-size: 35px;
+    margin-left: 100px;
+    color: blue;
+}
+
+.main {
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .card {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+  }
+  
+  button{
+    padding: 1rem;
+    border: none;
+    background-color: aqua;
+  }
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -450px;
+    width: 450px;
+    height: 100%;
+    background-color: blue;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://img.freepik.com/premium-photo/the-bar-at-the-hotel-is-decorated-in-a-dark-green-color_771703-9232.jpg?w=740);
+ }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+
+
+  
